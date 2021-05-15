@@ -20,8 +20,8 @@
         - from(para)，类型转换方法，返回该类型的一个实例
         - of(...)，聚合方法，返回该类型的一个实例
         - valueOf(para)，指定值
-        - instance(...)/getInstance(...)，返回实例用参数来描述
-        - create(...)/newInstance(...)，保证每次都返回一个新实例
-        - get<Type>(...)，类似 getInstance，Type 表示工厂方法返回的对象类型
-        - new<Type>(...)，类似 newInstance，Type 表示工厂方法返回的对象类型
-        - <Type>(...)，get<Type>/new<Type> 的精简版
+        - instance(...) / getInstance(...)，返回实例用参数来描述
+        - create(...) / newInstance(...)，保证每次都返回一个新实例
+        - get\<Type\>(...)，类似 getInstance，Type 表示工厂方法返回的对象类型
+        - new\<Type\>(...)，类似 newInstance，Type 表示工厂方法返回的对象类型
+        - \<Type\>(...)，get\<Type\> / new\<Type\> 的精简版
